@@ -3,62 +3,75 @@ My Trail Website
 <!doctype html>
 <html>
 <head>
-    <title>My First Webpage</title>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-       
+    <title>My First Website</title>
+       <meta charset="utf-8" />
+       <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <meta name="description" content="A jouney of a thousand miles begins with a
+       single step." />
 </head>
-
 <body>
-<div>
-   <h1>My first header!</h1>
-   <h2>My second header!</h2>
-   <h3>My another header</h3>
-   <h4>Another header</h4>
-   <h5>another header</h5>
-   <h6>another header</h6>
-
-   <p>My first line goes here.<br />Extra text! </p>
-
-   <hr />
-
-   <p>A second line</p>
-
-   <p>I want this <u>word</u> to be underlined. <strong>This is a bold piece of text.</strong>This will be in <em> italics.</em> <strike> This line is struck.</strike></p>
-   
-   <h2>Unordered list of My favourite food</h2>
-
-   <ul>
-        <li>Pizza</li>
-        <li>Chocolate</li>
-        <li>chips</li>
-   </ul>
-
-   <h2>ordered list of my favourite parts of day</h2>
-   
-   <ol>
-        <li>Morning</li>
-        <li>Afternoon</li>
-        <li>Night</li>
-
-   </ol>
-  
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Prime_Time_1985.jpg/269px-Prime_Time_1985.jpg" height="200" \ />
-
-   <table>
-      
-     <tr><th>Name</th><th>Age</th><th>Gender</th></tr>
-     <br /><br /><hr />
-     <tr><td>Lalith</td><td>19</td><td>Male</td></tr>
-     <hr />
-     <tr><td>Renuka</td><td>50</td><td>Female</td></tr>
-     <tr><td>Jyothsna</td><td>22</td><td>Female</td></tr>
-     <tr><td>Prasad</td><td>52</td><td>Male</td></tr>
-
-     </table>
-     <hr /> <hr />
-</div>
+<iframe src="helloworld.html" align="right"></iframe>
+	 	
+<h1>Hello World!</h1>
+	 	
+<h2>A few facts about the world we live in</h2>
+<br><br><br>
+	 	
+<img src="images/earth.jpg" align="left" width="400" />
+	 	
+<p>Earth is the third planet from the Sun and is the largest of the
+terrestrial planets. Unlike the other planets in the solar system that are named
+after classic deities the Earth’s name comes from the Anglo-Saxon word erda
+which means ground or soil. The Earth was formed approximately 4.54 billion
+years ago and is the only known planet to support life.</p>
+	 	
+<hr>
+	 	
+<h3>About the earth</h3>
+	 	
+<ul>
+	 	 <li><strong>Mass: </strong>5,972,190,000,000,000 billion kg</li>
+	 	 <li><strong>Diameter at equator: </strong>12,756 km</li>
+	 	 <li><strong>Satellites </strong><a href="http://space-facts.com/themoon/">The Moon</a></li>
+	 	 <li><strong>Mass: </strong>5,972,190,000,000,000 billion kg</li>
+	 	 <li><strong>Mass:</strong>5,972,190,000,000,000 billion kg</li>
+</ul>
+	 	
+<hr>
+	 	
+<h3>Top 3 earth facts</h3>
+			
+<ol>
+	 	 <li>The Earth’s rotation is gradually slowing.</li>
+	 	 <li>A year isn't exactly 365 days, and the earth doesn't take 24
+hours to rotate</li>
+	 	 <li>70% of the earth's surface is water, and only one third of its
+fresh water is unfrozen</li>
+</ol>
+	 	
+<hr>
+	 	
+<h3>Earth's nearest neighbours</h3>
+	 	
+<table>
+	 	 <tr><th>Name</th><th>Radius</th><th>Average Temperature</th></tr>
+	 	 <tr><td>Mars</td><td>3,390km</td><td>-55 &deg;C </td></tr>
+	 	 <tr><td>Venus</td><td>6,052</td><td>460 &deg;C</td></tr>
+</table>
+	 	
+<hr>
+	 	
+<form action="http://space-facts.com/earth/">
+	 	
+	 	 <p>Want to know more?</p>
+			
+	 	 <p><input type="submit" value="Click Here!" /></p>
+			
+</form>
+	 	
+	 	
+	 	
 </body>
 </html>
